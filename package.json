@@ -1,0 +1,38 @@
+{
+    "name": "webext-modal-dialog",
+    "version": "0.1.0",
+    "description": "Modal and dialog components for Chrome extensions — confirm/alert/prompt dialogs, custom modals, form modals, and loading overlays for MV3.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "modal",
+        "dialog",
+        "popup",
+        "confirm",
+        "alert",
+        "manifest-v3",
+        "browser-extension",
+        "ui-components",
+        "overlay"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/webext-modal-dialog.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
