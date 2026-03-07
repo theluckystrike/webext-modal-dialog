@@ -1,3 +1,8 @@
+[![CI](https://github.com/theluckystrike/webext-modal-dialog/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-modal-dialog/actions)
+[![npm](https://img.shields.io/npm/v/webext-modal-dialog)](https://www.npmjs.com/package/webext-modal-dialog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 # WEBEXT-MODAL-DIALOG
 
 Beautiful modal dialogs for Chrome extension UIs. Built by theluckystrike.
@@ -117,3 +122,7 @@ This library is maintained by theluckystrike and is part of the zovo.one extensi
 ## LICENSE
 
 MIT License
+
+## License
+
+MIT
